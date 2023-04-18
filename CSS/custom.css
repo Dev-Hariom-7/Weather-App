@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@1&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fragment Mono", monospace;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #2e86de;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    /* Arrange Vertically */
+    justify-content: center;
+    /* Arrange Horizontly */
+    width: 1000px;
+    margin: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+
+form {
+    position: static;
+}
+
+.row input {
+    margin-bottom: -33px;
+    margin-left: -190px;
+}
+
+.row input:hover {
+    background-color: #8395a7;
+    cursor: pointer;
+    color: white;
+}
+
+.sunny:hover {
+    background-color: #8395a7;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px black;
+    border: none;
+    outline: none;
+}
+
+#search {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 21px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 15px blue;
+}
